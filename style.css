@@ -1,0 +1,18 @@
+nav {
+    background-color: #4876a3;
+}
+
+a {
+    color: lightgray;
+    margin: 7px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.form-control {
+    background-color: #24292e;
+    margin: 2px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
