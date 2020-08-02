@@ -121,10 +121,12 @@ body {
     width: 100%;
     height: 175px;
     top: -70px;
-    background-color: #edece7;
+    /* background-color: #edece7; */
     border-bottom: #a1949483;
     border-width: 1px;
     border-style: solid;
+    background: linear-gradient(to bottom left, 
+    #e49e00 28%, #ae6842 28%, #ae6842 36%, #801615 36%, #801615 44%, #3b3b3b 44%, #3b3b3b 52%,  #edece7 52% ); 
 }
 
 .headText {
@@ -153,8 +155,8 @@ body {
     height: 25px;
     width: 1000px;
     position: fixed;
-    left:850px;
-    top:20px;
+    left:0;
+    top:0;
     transform: rotate(15deg)
 } 
 
@@ -192,7 +194,7 @@ body {
     height: 25px;
     width: 1000px;
     position: fixed;
-    right: -130%;
+    right: -550px;
     transform: rotate(15deg)
 } 
 
@@ -201,7 +203,8 @@ body {
     height: 25px;
     width: 1000px;
     position:fixed;
-    right: -112%;
+    right: -96%;
+    viewport-fit;
     transform: rotate(15deg)
 }
 
@@ -211,14 +214,20 @@ body {
     width: 1000px;
     position:fixed;
     right: -96%;
+    viewport-fit ;
     transform: rotate(15deg)
 }
 
-.smRectangle4 {
+/* .smRectangle4 {
 
     height: 25px;
     width: 1200px;
     position:fixed;
     right: -98%;
     transform: rotate(15deg)
-} 
+}  */
+
+#fixed {
+    position:fixed;
+    width:100%;
+}
