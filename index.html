@@ -11,18 +11,21 @@
 </head>
 <body>
   <br>
-  <div class=col-md-12>
+  <div class="col-md-12">
+      <!-- This is the Sidebar -->
     <div id="container">
       <div id="container">
-        <div class="col-md-12 col-sm-12 aboutMe">
+        <div class="d-none d-md-block col-md-12 col-sm-6 aboutMe">
           <div class="col-md-12 picSpace">
             <img class="pic" src=static/Brandon.jpg alt="Avatar">
           </div>
-          <h2 style="margin-left: .6em; margin-top: .4em;">Brandon Damore</h2>
-          <h4 style= "text-align:center;"><small>Coffee Analyst, Data Enthusiast</small></h4>
-          <hr>
-          <p style="text-align: center;"><em>Self starting individual, constantly seeking improvement and efficiency. </em></p>
-          <hr>
+          <div class="aboutHead">
+            <h2>Brandon Damore</h2>
+            <h4><small>Coffee Analyst, Data Enthusiast</small></h4>
+            <hr>
+            <p><em>Self starting individual, constantly seeking improvement and efficiency. </em></p>
+            <hr>
+          </div>
           <div style="text-align: center;">
             <h5>Highlights</h5>
             <a href="index.html" class="btn btn-outline-secondary btn-sm" role="button" aria-disabled="true">Resume</a>
@@ -53,7 +56,45 @@
       </div>
     </div>
     <br>
-    <div id="right" id="top" class="col-md-9 content container">
+    <!-- Start the Body -->
+    <div id="right" id="top" class="col-md-9 col-sm-6 content container">
+      <!-- If a mobile screen, show the sidebar at the top -->
+      <div class="d-block d-md-none col-md-12 col-sm-6 elder-child">
+        <div class="smHead">
+          <h2>Brandon Damore</h2>
+          <h4><small>Coffee Analyst, Data Enthusiast</small></h4>
+          <hr>
+          <p><em>Self starting individual, constantly seeking improvement and efficiency. </em></p>
+          <hr>
+        </div>
+        <div style="text-align: center;">
+          <h5>Highlights</h5>
+          <a href="index.html" class="btn btn-outline-secondary btn-sm" role="button" aria-disabled="true">Resume</a>
+          <a href="pages/StayGolden.html" class="btn btn-outline-secondary btn-sm" role="button" aria-disabled="true">Stay Golden</a>
+          <a href="pages/Vandy.html" class="btn btn-outline-secondary btn-sm" role="button" aria-disabled="true">Bootcamp</a>
+        </div>
+        <hr>
+        <h4>Technical Proficiencies</h4>
+        <p>
+          <b>Tools:</b> Google Suite, Microsoft Excel
+          <br><b>Languages:</b> Python, HTML, CSS, VBA
+          <br><b>Database:</b> SQL, MongoDB
+        </p>
+        <hr>
+        <h5 style="text-align: center;">Check me out!</h5>
+        <div class= "social">
+          <a  class="logo" href="https://github.com/bpdamore">
+            <img src=static/GitHub-Mark-32px.png>
+          </a>
+          <a class="logo" href="https://www.linkedin.com/in/brandon-damore-113958b1/">
+            <img style=width:34px;height:auto; src=static/LI-In-Bug.png>
+          </a>
+          <a class="logo"href = "mailto: bdamore916@gmail.com">
+            <img src="static/gmail-mark.png">
+          </a>
+          <hr>
+        </div>
+      </div>
       <div class="col-md-4 col-sm-4 elder-child">
         <h3 class="contentHeader">Education</h3>
         <p>
@@ -69,7 +110,7 @@
           <br>Studied Audio Engineering, focusing on Signal Flow and managing recording sessions.
         </p>
       </div>
-      <div class="col-md-5 col-sm-5 younger-child">
+      <div class="col-md-5 col-sm-4 younger-child">
         <h3 class="contentHeader">Experience</h3>
         <p>
           <b>Production Roaster // Data Analyst</b>
@@ -98,6 +139,13 @@
   <div class="shadow-lg rectangle2" style="background-color:#ae6842"></div>
   <div class="shadow-lg rectangle3" style="background-color:#801615"></div>
   <div class="shadow rectangle4" style="background-color:#3b3b3b"></div>
+  <div class="d-block d-sm-none">
+    <img class="smPic" src=static/Brandon.jpg alt="Avatar">
+  </div>
+  <div class="d-block d-sm-none shadow-lg smRectangle1" style="background-color:#e49e00"></div>
+  <div class="d-block d-sm-none shadow-lg smRectangle2" style="background-color:#ae6842"></div>
+  <div class="d-block d-sm-none shadow-lg smRectangle3" style="background-color:#801615"></div>
+  <div class="d-block d-sm-none shadow smRectangle4" style="background-color:#3b3b3b"></div>
   <div class="headText">
     <h1 class="display-4">About Me</h1>
   </div>

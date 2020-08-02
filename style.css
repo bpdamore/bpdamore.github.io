@@ -1,17 +1,12 @@
-body {
-    background-color: 	#edece7;
-}
-
 html{
     scroll-behavior: smooth;
 }
 
-.logo {
-    color: lightgray;
-    margin-right: 25px;
-    padding: 1px;
-    font-size: 14px;
+body {
+    background-color: 	#edece7;
 }
+
+/* -------Sidebar------- */
 
 #container {
     position: fixed;
@@ -20,37 +15,6 @@ html{
     z-index: 999;
     width: 25%;
     height: 100vh;
-    /* text-align: center; */
-}
-
-.content {
-    top: 50px;
-}
-
-#right {
-    float: right;
-}
-
-.contentHeader{
-    padding-top: 1em;
-}
-
-.picSpace {
-    padding-left: 30%;
-}
-
-.pic {
-
-    border-radius: 50%;
-    width: 125px;
-    height: auto;
-
-}
-.form-control {
-    background-color: #24292e;
-    margin: 2px;
-    border-radius: 3px;
-    vertical-align: middle;
 }
 
 .aboutMe {
@@ -64,12 +28,92 @@ html{
     border-left:0px;
     border-style: solid;
     border-color: #cecdcd;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+.picSpace {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.pic {
+
+    border-radius: 50%;
+    width: 125px;
+    height: auto;
+}
+
+.aboutHead{
+    text-align: center;
 }
 
 .social {
     display: inline;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 24%;
+}
+
+.logo {
+    color: lightgray;
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 14px;
+}
+
+/* --------- Main Content ---------- */
+
+.smHead {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.contentHeader{
+    padding-top: 1em;
+}
+
+.content {
+    top: 50px;
+}
+
+#right {
+    float: right;
+}
+
+.elder-child {
+    float: left;
+}
+
+.younger-child {
+    float: right;
+    /* margin-right: 15%; */
+}
+
+.red-headed-step-child {
+    float: left;
+}
+
+.to_top {
+    height: 50px;
+    width: 120px;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    padding-top: 10px;
+    color: #edece7;
+    text-align: center;
+}
+
+/* ------- Top Bar and Colors --------- */
+
+.smPic {
+    position: fixed;
+    top: 5px;
+    left: 3%;
+    width: 95px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .rectangle {
@@ -105,17 +149,6 @@ html{
     left: 345px;
 }
 
-.to_top {
-    height: 50px;
-    width: 120px;
-    position: fixed;
-    right: 45px;
-    bottom: 45px;
-    padding-top: 10px;
-    color: #edece7;
-    text-align: center;
-
-}
 .rectangle1 {
     height: 25px;
     width: 1000px;
@@ -123,9 +156,9 @@ html{
     left:850px;
     top:20px;
     transform: rotate(15deg)
- } 
+} 
 
- .rectangle2 {
+.rectangle2 {
 
     height: 25px;
     width: 1000px;
@@ -134,7 +167,6 @@ html{
     top: 45px;
     transform: rotate(15deg)
 }
- 
 
 .rectangle3 {
 
@@ -156,15 +188,37 @@ html{
     transform: rotate(15deg)
 } 
 
-.elder-child {
-    float: left;
+.smRectangle1 {
+    height: 25px;
+    width: 1000px;
+    position: fixed;
+    right: -130%;
+    transform: rotate(15deg)
+} 
+
+.smRectangle2 {
+
+    height: 25px;
+    width: 1000px;
+    position:fixed;
+    right: -112%;
+    transform: rotate(15deg)
 }
 
-.younger-child {
-    float: right;
-    margin-right: 15%;
+.smRectangle3 {
+
+    height: 25px;
+    width: 1000px;
+    position:fixed;
+    right: -96%;
+    transform: rotate(15deg)
 }
 
-.red-headed-step-child {
-    float: left;
-}
+.smRectangle4 {
+
+    height: 25px;
+    width: 1200px;
+    position:fixed;
+    right: -98%;
+    transform: rotate(15deg)
+} 
