@@ -1,18 +1,170 @@
-nav {
-    background-color: #4876a3;
+body {
+    background-color: 	#edece7;
 }
 
-a {
+html{
+    scroll-behavior: smooth;
+}
+
+.logo {
     color: lightgray;
-    margin: 7px;
-    padding: 5px;
+    margin-right: 25px;
+    padding: 1px;
     font-size: 14px;
 }
 
+#container {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999;
+    width: 25%;
+    height: 100vh;
+    /* text-align: center; */
+}
 
+.content {
+    top: 50px;
+}
+
+#right {
+    float: right;
+}
+
+.contentHeader{
+    padding-top: 1em;
+}
+
+.picSpace {
+    padding-left: 30%;
+}
+
+.pic {
+
+    border-radius: 50%;
+    width: 125px;
+    height: auto;
+
+}
 .form-control {
     background-color: #24292e;
     margin: 2px;
     border-radius: 3px;
     vertical-align: middle;
+}
+
+.aboutMe {
+    background-color: #e4e4e4;
+    padding-top: 1em;
+    height: 100%;
+    margin-right: .5em;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom:0px;
+    border-left:0px;
+    border-style: solid;
+    border-color: #cecdcd;
+}
+
+.social {
+    display: inline;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.rectangle {
+    position: fixed;
+    width: 100%;
+    height: 175px;
+    top: -70px;
+    background-color: #edece7;
+    border-bottom: #a1949483;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.headText {
+    position: fixed;
+    top: 35px;
+    left:27%;
+}
+
+.sgLogo {
+    position: fixed;
+    height: 75px;
+    width: auto;
+    top: 15px;
+    left:350px
+}
+
+.vbLogo {
+    position: fixed;
+    height: 40px;
+    width: auto;
+    top: 55px;
+    left: 345px;
+}
+
+.to_top {
+    height: 50px;
+    width: 120px;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    padding-top: 10px;
+    color: #edece7;
+    text-align: center;
+
+}
+.rectangle1 {
+    height: 25px;
+    width: 1000px;
+    position: fixed;
+    left:850px;
+    top:20px;
+    transform: rotate(15deg)
+ } 
+
+ .rectangle2 {
+
+    height: 25px;
+    width: 1000px;
+    position:fixed;
+    left:850px;
+    top: 45px;
+    transform: rotate(15deg)
+}
+ 
+
+.rectangle3 {
+
+    height: 25px;
+    width: 1000px;
+    position:fixed;
+    top: 70px;
+    left:849px;
+    transform: rotate(15deg)
+}
+
+.rectangle4 {
+
+    height: 25px;
+    width: 1200px;
+    position:fixed;
+    top:69px;
+    left:650px;
+    transform: rotate(15deg)
+} 
+
+.elder-child {
+    float: left;
+}
+
+.younger-child {
+    float: right;
+    margin-right: 15%;
+}
+
+.red-headed-step-child {
+    float: left;
 }
