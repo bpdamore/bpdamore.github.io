@@ -151,7 +151,7 @@ body {
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
-    #e49e00 28%, #ae6842 28%, #ae6842 36%, #801615 36%, #801615 44%, #3b3b3b 44%, #3b3b3b 52%,  #edece7 52% ); 
+    #993D1B 28%,#555555 28%, #464E21 28.5%, #464E21 36%,#555555 36%, #D8AB4C 36.5%, #D8AB4C 44%, #878787 44%,  #333333 44.5%, #333333 52%, #878787 52% , #edece7 52.5% ); 
 }
 
 .headText {
@@ -170,8 +170,8 @@ body {
 
 .vbLogo {
     position: fixed;
-    height: 40px;
+    height: 45px;
     width: auto;
     top: 55px;
-    left: 345px;
+    left: 27%;
 }
