@@ -30,12 +30,13 @@ body {
     border-color: #cecdcd;
     overflow-x: hidden; 
     overflow-y: auto; 
+    text-align: center;
 }
 .picSpace {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .pic {
@@ -123,7 +124,7 @@ body {
     height: 175px;
     top: -70px;
     /* background-color: #edece7; */
-    border-bottom: grey;
+    border-bottom: lightgrey;
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
@@ -135,7 +136,7 @@ body {
     height: 175px;
     top: -70px;
     /* background-color: #edece7; */
-    border-bottom: grey;
+    border-bottom: lightgrey;
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
@@ -147,7 +148,7 @@ body {
     height: 175px;
     top: -70px;
     /* background-color: #edece7; */
-    border-bottom: grey;
+    border-bottom: lightgrey;
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
@@ -164,7 +165,7 @@ body {
     position: fixed;
     height: 75px;
     width: auto;
-    top: 25px;
+    top: 18px;
     left:27%
 }
 
