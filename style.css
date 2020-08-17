@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: 	#edece7;
+    background-color: 	rgb(237, 236, 231);
 }
 
 /* -------Sidebar------- */
@@ -112,23 +112,39 @@ body {
 }
 
 .carousel-item{
-    height: 400px;
-    width: 600px;
+    height: auto;
+    width: 100%;
     margin: auto;
 } 
 .carousel-item img{
-    height: 400px;
-    width: 600px;
+    height: auto;
+    width: 100%;
     margin: auto;
 }
 .slide {
-    width: 600px;
+    width: 100%;
     margin: auto;
 }
 
 .carousel-inner img{
     margin: auto;
 }
+
+.list{
+    padding: 10px;
+    display: inline-block;
+}
+
+.pypy{
+    width: 50px;
+    margin-left: 10px;
+} 
+
+.css3 {
+    width:36.5px;
+    margin-left: 10px;
+}
+
 /* ------- Top Bar and Colors --------- */
 
 .smPic {
@@ -164,8 +180,9 @@ body {
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
-    #e49e00 28%, #947a7a 28%,#ae6842 28.5%, #ae6842 36%, #555555 36%, #801615 36.5%, #801615 44%,#333333 44%,  #3b3b3b 44.5%, #3b3b3b 52%, #333333 52% , rgb(237, 236, 231) 52.5% ); 
+    #8fc1e2 28%, #5e5e5e 28%,#687865 28.5%, #687865 36%, #555555 36%, #31708f 36.5%, #31708f 44%,#424242 44%,  #5b4734 44.5%, #5b4734 52%, #4e4e4e 52% , rgb(237, 236, 231) 52.5% ); 
 }
+
 .SGrectangle {
     position: fixed;
     width: 100%;
@@ -183,6 +200,7 @@ body {
 .carousel-indicators {
     z-index: 20;
 }
+
 .VBrectangle {
     position: fixed;
     width: 100%;

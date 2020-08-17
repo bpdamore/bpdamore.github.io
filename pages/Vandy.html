@@ -11,7 +11,7 @@
 <body>
   <br>
   <div class="col-md-12">
-      <!-- This is the Sidebar -->
+      <!-- This is the Sidebar -->   
     <div id="container">
       <div id="container">
         <div class="d-none d-md-block col-md-12 col-sm-6 aboutMe">
@@ -34,7 +34,7 @@
           <hr>
           <h4>Technical Proficiencies</h4>
           <p>
-            <b>Tools:</b> Google Suite, Microsoft Excel
+            <b>Tools:</b> GSuite, Tableau, Excel
             <br><b>Languages:</b> Python, HTML, CSS, VBA
             <br><b>Database:</b> SQL, MongoDB
           </p>
@@ -75,7 +75,7 @@
         <hr>
         <h4>Technical Proficiencies</h4>
         <p>
-          <b>Tools:</b> Google Suite, Microsoft Excel
+          <b>Tools:</b> GSuite, Tableau, Excel
           <br><b>Languages:</b> Python, HTML, CSS, VBA
           <br><b>Database:</b> SQL, MongoDB
         </p>
@@ -94,73 +94,77 @@
           <hr>
         </div>
       </div>
-      <h3 class="contentHeader">Section Coming Soon</h3>
-
-
-      <!-- <div class="col-md-9 col-sm-4 elder-child"> 
-        <h3 class="contentHeader">Production</h3>
-        <p>When I first started working at Stay Golden, most order processing steps were done manually. Queuing orders, calculating roasts, and even logging roasts were done by hand. </p>
-        <p>As we've grown, our processes have expanded to the point of it taking 2 hours to just start a roast day. I decided to automate a few things and to help the team be more efficient.</p>
-        <p id="Misto">To see information on each script, click a button below</p>
-        <a href="#Misto" class="btn btn-secondary btn" role="button" aria-disabled="true">MistoBox</a>
-        <a href="#Trade" class="btn btn-secondary btn" role="button" aria-disabled="true">Trade Coffee</a>
-        <a href="#Wholesale" class="btn btn-secondary btn" role="button" aria-disabled="true">Wholesale</a>
-        <a href="#Monitor" class="btn btn-secondary btn" role="button" aria-disabled="true">Roast Monitor</a>
+      <h3 class="contentHeader">24 Week Data Anlytics Boot Camp</h3>
+      <p>
+        Since February I have been participating in a Data Analytics Boot Camp at Vanderbilt University.
+        The goal of taking this course was to be able to make a shift in my career from hospitality and coffee production into a data based role. 
+        While working 40 hours a week at Stay Golden, I was also attending 10 hours of classes a week and putting 20 hours of outside work into homework and projects.
+      </p>
+      <h4>Topics Covered</h4>
+      <hr>
+      <div class="list">
+        <li>VBA Scripting</li>
+        <li>Python</li>
+        <li>pandas</li>
       </div>
-      <div class="col-md-9 red-headed-step-child">
-        <br>
-        <h3 class="contentHeader">MistoBox</h3>
-        <p><b>Skills:</b> <em>Web Scraping, Browser Automation, API calls</em> 
-        <br><b>Tools Used:</b> <em>Python, Pandas, Splinter, BeautifulSoup, Google Sheets API</em></p>
-        <p>MistoBox is a coffee subscription service that has a relatively simple order portal. Instead of copying each order into our Roast Sheet, I created a "One Click" script that does everything.</p>
-        <li>First, Splinter opens an automated browser to the Log-in page, fills in the Username and Password, and hits enter.</li>
-        <li>Second, Beautiful Soup pulls the table with the orders for the day. </li>
-        <li id="Trade">Third, the python script loads in a Json file of current SKUs, matches the coffee order to a sku, and Pandas totals up each coffee's order.</li>
-        <li>Connecting with Google's API, each coffee is added to the roast sheet for the day.</li>
-        <li>Finally, Splinter selects all open orders and prints them out.</li>
+      
+      <div class="list">
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Javascript</li>
+
       </div>
+      <div class="list">
+        <li>Matplotlib</li>
+        <li>Plotly</li>
+        <li>D3</li>
+
+      </div>
+      <div class="list">
+        <li>Tableau</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
+
+      </div>
+      <div class="list">
+        <li>R</li>
+        <li>Spark</li>
+        <li>AWS</li>
+      </div>
+      <hr>
+      <h3>Python <img class="pypy" src=../static/py.jpg ></h3>
+      <p>
+        Prior to this class I had a rudimentary knowledge of Python, learning solely through Google and Stack Overflow. The main bulk of this program focused on using Python and various modules inside of Python to manipulate and visualize data. 
+        <br>We were encouraged to mix and match these concepts to accomplish our goals.
+        <li>Utilizing pandas, we were able to programmatically manipulate and analyze CSV files and tables found on the internet.</li>
+        <li>Splinter and Beautiful Soup allowed us to use the internet as our dataset. Anything interesting found on the internet can be scraped and analyzed through Beautiful soup and Python.</li>
+        <li>Matplotlib was used to create basic visualizations of data with Python. </li>
+        <li>SQLAlchemy and Pymongo allowed us to connect to SQL and NoSQL databases in Python, and to use those datasets. </li>
+      </p>
       <br>
-      <div class="col-md-9 red-headed-step-child">
-        <h3 class="contentHeader">Trade</h3>
-        <p><b>Skills:</b> <em>CSV Manipulation, File Manipulation, User Input, API calls</em> 
-        <br><b>Tools Used:</b> <em>Python, Pandas, EasyGUI, Google Sheets API</em></p>
-        <p>Trade Coffee is a larger coffee subscription, but their order portal requires more user interaction to accept orders. So the script I wrote automates the processing of orders, but not the accepting or printing. </p>
-        <li>After double-clicking the script, a pop up will ask what batch number the order was. Using that number, the script searches the Downloads folder for the downloaded csv.</li>
-        <li>The csv is then loaded into a Pandas Dataframe, alongside a Json file containing our product SKUs.</li>
-        <li id="Wholesale">The dataframe is reformatted to include the product SKUs, and it counts up the total number for each product.</li>
-        <li>Finally the script connects to our Roasting Google Sheet via the Sheets API to queue the orders for roasting and packaging.</li>
-      </div>
-      <div class="col-md-9 red-headed-step-child">
-        <h3 class="contentHeader">Wholesale</h3>
-        <p><b>Skills:</b> <em>Adaptable HTML/CSS, API calls, Google Sheet Iteration</em> 
-        <br><b>Tools Used:</b> <em>Python, Pandas, Google Sheets API, Shopify API, HTML, CSS</em></p> 
-        <p>At Stay Golden our wholesale customers can either order from our Shopify page and pay immediately, or if they need to pay with Net30 terms, they can order through an order form we made that places their responses into our Google Sheet. On top of that, if a customer wants a custom product AND Net30 terms, we have a separate order form that goes into a separate sheet. With orders coming from 7 different sheets and Shopify, processing orders can take some time. </p>
-        <p id="Monitor">My script pulls wholesale orders from everywhere we take orders, queues them up for production, and then formats them into a Packing List that opens in a browser tab. The only human interaction is to run it.</p>
-      </div>
-      <div class="col-md-9 red-headed-step-child">
-        <h3 class="contentHeader">Roast Monitor</h3>
-        <p><b>Skills:</b> <em>Regular Expressions, File Manipulation, API calls</em> 
-        <br><b>Tools Used:</b> <em>Python, Regex, Google Sheets API</em></p>   
-        <p>After hooking up our Coffee Roaster to a computer for Roast Monitoring, we fell into a habit of saving the roast files with the default naming schemes. After about 2,000 roasts I realized that the naming convention didn't show the weight of the batch, therefore making roast comparisons almost impossible.</p>
-        <p> I decided to make a script that would monitor our Roast Sheet folder, open a file that is placed there, use Regular Expressions to find the batch weight in the metadata, and then to rename the file and move it to a new folder.</p>
-        <p> The script aides in daily production by taking that weight, going to our roast queue on Google Sheets, and subtracting from the total needed poundage for the week. At all times our needed poundage is up to date, and automated. </p>
-        <br>
-      </div> -->
+      <h3>Database Management <img class="pypy" src=../static/db.png></h3>
+      <p>
+        Using SQL and MongoDB, we went over the basics of connecting to, and utilizing data. We covered basics of PostgreSQL, SQLite, and MySQL.
+        <li>Using Amazon Web Services, we created a PostgreSQL database, and connected it on multiple machines.</li>
+        <li>We covered the ETL (Extract, Transform, Load) process, allowing us to manipulate and add to current databases.</li>
+      </p>
+      <br>
+      <h3>Web Development<img class="pypy" src=../static/HTML5_logo_and_wordmark.svg><img class="css3" src=../static/CSS3_logo_and_wordmark.svg></h3>
+      <p>
+        Later portions of the class dealt with basic Web Development in order to help us present our findings or visualizations.
+        <br>This website is built from scratch, using concepts we went over. 
+        <li>HTML and CSS helped us to create the structure and look of the website</li>
+        <li>Javascript showed us how to create interactive graphs and events</li>
+        <li>Plotly was used to easily create interactive graphs</li>
+        <li>D3 was used to create fully custom visualizations that were interactive.</li>
+      </p>
     </div>
   </div>
   <a href="#top" class=" to_top btn btn-secondary shadow" role="button" aria-disabled="true">Top of Page</a>
   <div class="shadow-sm VBrectangle"></div>
-  <!-- <div class="shadow-lg rectangle1" id="fixed" style="background-color:#e49e00"></div>
-  <div class="shadow-lg rectangle2" style="background-color:#ae6842"></div>
-  <div class="shadow-lg rectangle3" style="background-color:#801615"></div>
-  <div class="shadow rectangle4" style="background-color:#3b3b3b"></div> -->
   <div class="d-block d-sm-none">
     <img class="smPic" src=../static/Brandon.jpg alt="Avatar">
   </div>
-  <!-- <div class="d-block d-sm-none shadow-lg smRectangle1" style="background-color:#e49e00"></div>
-  <div class="d-block d-sm-none shadow-lg smRectangle2" style="background-color:#ae6842"></div>
-  <div class="d-block d-sm-none shadow-lg smRectangle3" style="background-color:#801615"></div>
-  <div class="d-block d-sm-none shadow smRectangle4" style="background-color:#3b3b3b"></div> -->
   <div>
     <img class="vbLogo" src="../static/path64.png">
   </div>
