@@ -108,7 +108,7 @@
         <h3 class="contentHeader" >Trade</h3>
         <p><b>Skills:</b> <em>CSV Manipulation, File Manipulation, User Input, API calls</em> 
         <br><b>Tools Used:</b> <em>Python, Pandas, EasyGUI, Google Sheets API</em></p>
-        <p>Trade Coffee is a larger coffee subscription, but their order portal requires more user interaction to accept orders. So the script I wrote automates the processing of orders, but not the accepting or printing. </p>
+        <p>Trade Coffee is one of the largest coffee subscriptions in America. Their order portal is polished, but requires user interaction to accept orders. So the script I wrote automates the processing of orders, but not the accepting or printing. </p>
         <div id="carousel2" class="carousel slide" data-interval="false" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel2" data-slide-to="0" class="active"></li>
@@ -169,21 +169,21 @@
               <img src="../static/misto_1.gif" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Splinter</h5>
-                <p>Splinter opens a browser, goes to the Mistobox url, and logs in</p>
+                <p>Splinter opens a browser, goes to the Mistobox URL, and logs in</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="../static/misto_2.gif" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Order Processing</h5>
-                <p>BeautifulSoup loads the orders into the script, matches the orders, to a sku, and totals up the orders. It then adds to the Google Sheet.</p>
+                <p>BeautifulSoup loads the orders into the script, matches the order to a sku, and totals up the orders. It then adds to the Google Sheet.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="../static/misto_3.gif" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Printing</h5>
-                <p>Splinter then selects all orders and prepares the print job</p>
+                <p>Splinter clicks on "Select All", then clicks on "Print Selected Orders" to start processing the print job</p>
               </div>
             </div>
           </div>
@@ -205,7 +205,9 @@
         <h3 class="contentHeader">Wholesale</h3>
         <p><b>Skills:</b> <em>Adaptable HTML/CSS, API calls, Google Sheet Iteration</em> 
         <br><b>Tools Used:</b> <em>Python, Pandas, Google Sheets API, Shopify API, HTML, CSS</em></p> 
-        <p>At Stay Golden our wholesale customers can either order from our Shopify page and pay immediately, or if they need to pay with Net30 terms, they can order through an order form we made that places their responses into our Google Sheet. On top of that, if a customer wants a custom product AND Net30 terms, we have a separate order form that goes into a separate sheet. With orders coming from 7 different sheets and Shopify, processing orders can take some time. </p>
+        <p>At Stay Golden our wholesale customers can either order from our Shopify page and pay immediately, or if they need to pay with Net30 terms, they can order through an order form we made that places their responses into our Google Sheet. On top of that, if a customer wants a custom product AND Net30 terms, we have a separate order form that goes into a separate sheet. With orders coming from 7 different sheets and Shopify, processing orders can take some time. 
+        <br>These scripts sort through the orders, queues them, and generates a PDF containing the current orders. 
+        </p>
         <div id="carousel3" class="carousel slide" data-interval="false" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel3" data-slide-to="0" class="active"></li>
@@ -239,20 +241,13 @@
         <hr id="Monitor">
         <br>
         <br>
-        <!-- <p id="Monitor">My script pulls wholesale orders from everywhere we take orders, queues them up for production, and then formats them into a Packing List that opens in a browser tab. The only human interaction is to run it.</p> -->
       </div>
       <div class="col-md-9 red-headed-step-child">
         <h3 class="contentHeader">Roast Monitor</h3>
         <p><b>Skills:</b> <em>Regular Expressions, File Manipulation, API calls</em> 
         <br><b>Tools Used:</b> <em>Python, Regex, Google Sheets API</em></p>   
         <p>After hooking up our Coffee Roaster to a computer for Roast Monitoring, we fell into a habit of saving the roast files with the default naming schemes. After about 2,000 roasts I realized that the naming convention didn't show the weight of the batch, therefore making roast comparisons almost impossible.</p>
-        <!-- <p> I decided to make a script that would monitor our Roast Sheet folder, open a file that is placed there, use Regular Expressions to find the batch weight in the metadata, and then to rename the file and move it to a new folder.</p> -->
         <div id="carousel4" class="carousel slide" data-interval="false" data-ride="carousel">
-          <!-- <ol class="carousel-indicators">
-            <li data-target="#carousel2" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel2" data-slide-to="1"></li>
-            <li data-target="#carousel2" data-slide-to="2"></li>
-          </ol> -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="../static/RM.gif" class="d-block w-100" alt="...">
@@ -262,7 +257,6 @@
               </div>
             </div>
         </div>
-        <!-- <p> The script aides in daily production by taking that weight, going to our roast queue on Google Sheets, and subtracting from the total needed poundage for the week. At all times our needed poundage is up to date, and automated. </p> -->
         <br>
         <br>
         <br>
@@ -275,17 +269,9 @@
   </div>
   <a href="#top" class=" to_top btn btn-secondary shadow" role="button" aria-disabled="true">Top of Page</a>
   <div class="shadow-sm SGrectangle"></div>
-  <!-- <div class="shadow-lg rectangle1" id="fixed" style="background-color:#e49e00"></div>
-  <div class="shadow-lg rectangle2" style="background-color:#ae6842"></div>
-  <div class="shadow-lg rectangle3" style="background-color:#801615"></div>
-  <div class="shadow rectangle4" style="background-color:#3b3b3b"></div> -->
   <div class="d-block d-sm-none">
     <img class="smPic" src=../static/Brandon.jpg alt="Avatar">
   </div>
-  <!-- <div class="d-block d-sm-none shadow-lg smRectangle1" style="background-color:#e49e00"></div>
-  <div class="d-block d-sm-none shadow-lg smRectangle2" style="background-color:#ae6842"></div>
-  <div class="d-block d-sm-none shadow-lg smRectangle3" style="background-color:#801615"></div>
-  <div class="d-block d-sm-none shadow smRectangle4" style="background-color:#3b3b3b"></div> -->
   <div>
     <img class="sgLogo" src="../static/SG logo.webp">
   </div>
