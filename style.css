@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: 	rgb(237, 236, 231);
+    background-color: 	#edece7;
 }
 
 /* -------Sidebar------- */
@@ -191,6 +191,7 @@ body {
     z-index: 22;
     /* background-color: #edece7; */
     border-bottom: lightgrey;
+    border-left: #edece7;
     border-width: 1px;
     border-style: solid;
     background: linear-gradient(to bottom left, 
