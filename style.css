@@ -1,18 +1,240 @@
-nav {
-    background-color: #4876a3;
+html{
+    scroll-behavior: smooth;
 }
 
-a {
+body {
+    background-color: 	#edece7;
+}
+
+/* -------Sidebar------- */
+
+#container {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999;
+    width: 25%;
+    height: 100vh;
+}
+
+.aboutMe {
+    background-color: #e4e4e4;
+    padding-top: 1em;
+    height: 100%;
+    margin-right: .5em;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom:0px;
+    border-left:0px;
+    border-style: solid;
+    border-color: #cecdcd;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align: center;
+}
+.picSpace {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.pic {
+
+    border-radius: 50%;
+    width: 125px;
+    height: auto;
+}
+
+.aboutHead{
+    text-align: center;
+}
+
+.social {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.logo {
     color: lightgray;
-    margin: 7px;
-    padding: 5px;
+    margin-right: 5px;
+    padding: 1px;
     font-size: 14px;
 }
 
+/* --------- Main Content ---------- */
 
-.form-control {
-    background-color: #24292e;
-    margin: 2px;
-    border-radius: 3px;
-    vertical-align: middle;
+.smHead {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.contentHeader{
+    padding-top: 1em;
+}
+
+.content {
+    top: 50px;
+}
+
+#right {
+    float: right;
+}
+
+.twins {
+    display: inline-block;
+}
+
+.elder-child {
+    float: left;
+}
+
+.younger-child {
+    float: left;
+}
+
+
+.red-headed-step-child {
+    float: left;
+}
+
+.to_top {
+    height: 50px;
+    width: 120px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 10px;
+    color: #edece7;
+    text-align: center;
+}
+
+.carousel-item{
+    height: auto;
+    width: 100%;
+    margin: auto;
+} 
+.carousel-item img{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.slide {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.list{
+    padding: 10px;
+    display: inline-block;
+}
+
+.pypy{
+    width: 50px;
+    margin-left: 10px;
+} 
+
+.css3 {
+    width:36.5px;
+    margin-left: 10px;
+}
+
+/* ------- Top Bar and Colors --------- */
+
+.smPic {
+    position: fixed;
+    top: 5px;
+    left: 3%;
+    width: 95px;
+    height: auto;
+    border-radius: 50%;
+    z-index: 24;
+}
+
+#Trade{
+    padding-top: 15px;
+}
+
+#Wholesale{
+    padding-top: 15px;
+}
+
+#Monitor{
+    padding-top: 15px;
+}
+
+.RSrectangle {
+    position: fixed;
+    width: 100%;
+    height: 175px;
+    top: -70px;
+    z-index: 22;    
+    /* background-color: #edece7; */
+    border-bottom: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(to bottom left, 
+    #8fc1e2 28%, #5e5e5e 28%,#687865 28.5%, #687865 36%, #555555 36%, #31708f 36.5%, #31708f 44%,#424242 44%,  #5b4734 44.5%, #5b4734 52%, #4e4e4e 52% , rgb(237, 236, 231) 52.5% ); 
+}
+
+.SGrectangle {
+    position: fixed;
+    width: 100%;
+    height: 175px;
+    top: -70px;
+    z-index: 22;
+    /* background-color: #edece7; */
+    border-bottom: lightgrey;
+    border-left: #edece7;
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(to bottom left, 
+    #CAE0D2 28%,#878787 28%, rgb(173, 153, 104) 28.5%, #ad9968 36%,#878787 36%, #f7c5b7 36.5%, #f7c5b7 44%, #878787 44%,  #49607f 44.5%, rgb(73, 96, 127) 52%, #878787 52% , #edece7 52.5% ); 
+}
+
+.carousel-indicators {
+    z-index: 20;
+}
+
+.VBrectangle {
+    position: fixed;
+    width: 100%;
+    height: 175px;
+    top: -70px;
+    /* background-color: #edece7; */
+    border-bottom: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(to bottom left, 
+    #993D1B 28%,#555555 28%, #D8AB4C 28.5%, #D8AB4C 36%,#555555 36%, #464E21 36.5%, #464E21 44%, #555555 44%,  #333333 44.5%, #333333 52%, #242424 52% , #edece7 52.5% ); 
+}
+
+.headText {
+    position: fixed;
+    top: 35px;
+    left:27%;
+    z-index: 24;
+}
+
+.sgLogo {
+    position: fixed;
+    height: 75px;
+    width: auto;
+    top: 18px;
+    left:27%;
+    z-index: 24;
+}
+
+.vbLogo {
+    position: fixed;
+    height: 45px;
+    width: auto;
+    top: 55px;
+    left: 27%;
 }
